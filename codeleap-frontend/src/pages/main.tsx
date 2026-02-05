@@ -60,7 +60,7 @@ export default function Main() {
         } catch {
             toast({
                 title: 'Error creating',
-                description: 'Please try again later.',
+                description: 'The API may be waking up. This can take up to 2 minutes on the first request.',
                 status: 'error'
             })
 
@@ -77,7 +77,7 @@ export default function Main() {
         } catch {
             toast({
                 title: 'Error loading posts',
-                description: 'Please try again later.',
+                description: 'The API may be waking up. This can take up to 2 minutes on the first request.',
                 status: 'error'
             });
         } finally {
@@ -145,7 +145,7 @@ export default function Main() {
                         </VStack>
                         <VStack align="start">
                             <Text fontSize="16px" fontWeight={400}>
-                                Title
+                                Content
                             </Text>
 
                             <Textarea
