@@ -119,7 +119,7 @@ export default function Main() {
             <Box w="100%" maxW="800px" bg="white" overflow="auto">
                 <Flex w="100%" h="80px" bg="#7695EC" align="center" px="40px">
                     <Text color="white" fontSize="22px" fontWeight={700}>
-                        CodeLeap Network {username}
+                        CodeLeap Network
                     </Text>
                 </Flex>
 
