@@ -30,11 +30,3 @@ Swagger: http://127.0.0.1:8000/docs/
 | GET | `/careers/{id}/` | Get post |
 | PATCH | `/careers/{id}/` | Update post |
 | DELETE | `/careers/{id}/` | Delete post |
-
-## Example
-
-```bash
-curl -X POST http://127.0.0.1:8000/careers/ \
-  -H "Content-Type: application/json" \
-  -d '{"username": "john", "title": "My Post", "content": "Content here"}'
-```
