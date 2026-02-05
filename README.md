@@ -39,7 +39,7 @@ Runs at: `http://localhost:3000`
 
 ## Deploy
 
-**Backend:** [YOUR_BACKEND_URL]  
-**Frontend:** [YOUR_FRONTEND_URL]
+**Backend:** `https://codeleap-network-si8k.onrender.com`  
+**Frontend:** `https://codeleap-network-sand.vercel.app/main`
 
 Update `NEXT_PUBLIC_API_URL` in frontend with deployed backend URL.
